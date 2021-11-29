@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dr. Tao Shu</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div id="header">
+		<img id="profile_picture" src="images/ProfilePic.jpg" width="190" height="260" />
+		<div class="headpart">
+			<h1>Tao Shu, Ph.D.</h1>
+			<h4 id="subtitle">
+				Associate Professor
+				<br>
+				Department of Computer Science and Software Engineering
+			</h4>
+		</div>
+	</div>
+	<div id="links">
+		<button class="pageLink headButton" onclick="openContent(event, 'Home')" id="defaultOpen">Home</button>
+		<button class="pageLink headButton" onclick="openContent(event, 'Research')">Research / Grants</button>
+		<button class="pageLink headButton" onclick="openContent(event, 'Teaching')">Teaching</button>
+		<button class="pageLink headButton" onclick="openContent(event, 'Publications')">Publications</button>
+	</div>
+	<div id="Home" class="tabcontent">
+		<div class="center_container">
+			<h2>About</h2>
+			<!--<hr/ class="centerLine">-->
+			<p>I am currently an associate professor in the Department of Computer Science and Software Engineering at Auburn University. I received my Ph.D. in Electrical and Computer Engineering from The University of Arizona in Dec. 2010. I received the B.S. and M.S. degrees in Electronic Engineering from the South China University of Technology, Guangzhou, China in 1996 and 1999, respectively, and the Ph.D. degree in Communication and Information Systems from Tsinghua University, Beijing, China in 2003. Before joining Auburn, I have worked as an assistant professor for 5 years in the Computer Science and Engineering Department of Oakland University in Rochester, Michigan. Prior to Oakland, I was a senior engineer in Qualcomm Atheros Inc. from Dec. 2010 to Aug. 2011.</p>
+			<br>
+			<p id="note">I'm always looking for highly self-motivated Ph.D. students who are interested in doing research in the areas of networking and security to join my group. Visiting scholars and students are also welcome. Please <a href="https://eng.auburn.edu/users/tzs0058/opportunities.htm">view this page for oppurtunities</a>.</p>
+		</div>
+		<div class="left_container">
+			<ul>
+				<li><h2>News</h2></li>
+				<li>[09/2020] NSF awarded us new grant on privacy-preserving context-based routing in Internet of Things (IoT). We are very grateful for the generous and continuous support from NSF!</li>
+				<li>[06/2020] Invited to serve on TPC of INFOCOM 2021.</li>
+				<li>[06/2020] NSF awarded us supplemental Research Experiences for Undergraduates (REU) fund for our mmWave micro mobility management project.</li>
+				<li>[04/2019] Invited to serve on TPC of INFOCOM 2020.</li>
+				<li>[08/2018] NSF awarded us new grant for predictive micro mobility management in mmWave cellular networks.</li>
+				<li>[04/2018] Invited to serve on TPC of INFOCOM 2019.</li>
+				<li>[07/2017] NSF awarded us grant on securing visible light communications.</li>
+				<li>[03/2017] Invited to serve on TPC of INFOCOM 2018.</li>
+				<li>[03/2017] Invited to serve on TPC of IEEE CloudCom 2017.</li>
+				<li>[02/2017] Serving as Associate Editor for IEEE Transactions on Mobile Computing (TMC).</li>
+				<li>[10/2016] Invited to serve on TPC of ICCCN 2017.</li>
+				<li>[08/2016] Joined the Computer Science and Software Engineering Department of Auburn University.</li>
+				<li>[05/2016] Serving as TPC co-chair for the Ad Hoc and Sensor Network (AHSN) Symposium of Globecom 2017.</li>
+				<li>[05/2016] Oakland University School of Engineering and Computer Science (SECS) Outstanding Research Award.</li>
+				<li>[04/2016] Oakland University Faculty Recognition for Excellence in Research.</li>
+				<li>[03/2016] Invited to serve on TPC of INFOCOM 2017.</li>
+				<li>[02/2017] Invited to serve on TPC of WCNC 2017.</li>
+				<li>[01/2016] INFOCOM 2016 Distinguished TPC Member Award.</li>
+				<li>[09/2015] NSF awarded our project on network economics for secondary spectrum ecosystems.</li>
+			</ul>
+		</div>
+	</div>
+	<div id="Research" class="tabcontent">
+		<div class="left_container">
+			<ul class="dotList">
+				<li class="listTitle"><h2>Research</h2></li>
+				<li>Network security and privacy</li>
+				<li>Applied cryptography</li>
+				<li>Big data oriented network information processing and protocol design</li>
+				<li>Wireless networking</li>
+				<li>Network economics</li>
+			</ul>
+			<p>My research aims at addressing the security, privacy, and performance issues in wireless networking systems, with strong emphasis on system architecture, protocol design, and performance optimization. My research interests span a broad range of problems, including applied cryptography, information assurance, network security and privacy, truthful mechanism design, dynamic spectrum access, radio resource management, routing/ MAC protocol design, and cloud computing. My research covers a wide variety of wireless systems, including mmWave networks, cognitive radio networks, wireless sensor networks, mobile ad hoc networks, and cellular networks. I have published over 60 refereed papers in above areas on top journals and conferences, including IEEE/ACM Transactions on Networking, IEEE Transactions on Mobile Computing, IEEE Transactions on Wireless Communication, IEEE Journal on Selected Areas in Communications, ACM MobiCom, ACM MobiHoc, and IEEE INFOCOM.<br>I gratefully thank the following organizations for their generous support to my research:</p>
+			<ul class="dotList">
+				<li>National Science Foundation</li>
+				<li>Auburn University</li>
+				<li>Oakland University</li>
+			</ul>
+			<div id="logos">
+				<img id="NSF" src="images/NSF.jpg"/>
+				<img id="AubUniv" src="images/AubUniv.jpg"/>
+				<img id="OakUniv" src="images/OakUniv.jpg"/>
+			</div>
+		</div>
+		<div class="left_container">
+			<ul class="dotList">
+				<li class=listTitle><h2>Grants</h2></li>
+				<li>“<a href="https://eng.auburn.edu/users/tzs0058/nsf_cns_2006998.htm">CNS Core: Small: Enabling Privacy-Preserving Routing-on-Context in IoT</a>,” funded by NSF (CNS-2006998), PI, 10/01/2020 – 09/30/2023.</li>
+				<li>“<a href="https://eng.auburn.edu/users/tzs0058/nsf_cns_1837034.htm">EAGER: Predictive Micro Mobility Management in mmWave Cellular Networks</a>,” funded by NSF (CNS-1837034), PI, 10/01/2018 – 09/30/2021.</li>
+				<li>“<a href="https://eng.auburn.edu/users/tzs0058/nsf_cns_1745254.htm">EAGER: Towards Securing Visible Light Communications</a>,” funded by NSF (CNS-1745254), PI, 09/01/2017 – 08/31/2020.</li>
+				<li>“<a href="https://eng.auburn.edu/users/tzs0058/nsf_cns_1659965.htm">NeTS: Small: Collaborative Research: Network Economics for Secondary Spectrum Ecosystems</a>,” funded by NSF (CNS-1524931), PI, 10/01/2015 – 09/30/2019.</li>
+				<li>“<a href="https://eng.auburn.edu/users/tzs0058/nsf_cns_1659962.htm">Collaborative Research: EARS: Large-Scale Statistical Learning based Spectrum Sensing and Cognitive Networking</a>,” funded by NSF (CNS-1343156), PI, 01/01/2014 – 12/31/2018 (Link to the final project report).</li>
+				<li>“REU Site: Undergraduate Computer Research (UnCoRe) in Secure and Trustworthy Cyberspace,” funded by NSF (CNS-1460897), PI: Huirong Fu, Co-PI: Tao Shu, 04/01/2015 – 03/31/2021.</li>
+				<li>“Securing Multi-hop Communications in Mobile Ad Hoc Networks,” funded by Oakland University Faculty Research Fellowship, PI, 01/01/2012 – 12/31/2012.</li>
+			</ul>
+		</div>
+	</div>
+	<div id="Teaching" class="tabcontent">
+		<div class="left_container">
+			<h2 class="centerTitle">Courses</h2>
+			<ul>
+				<li><h2 class="coursePeriod">Current</h2></li>
+				<li><h3>Auburn University</h3></li>
+				<li><i>Fall 2021</i>
+					<br>
+					<strong>Comp 5320/6320/6326</strong>
+					- Design and Analysis of Computer Networks
+				</li>
+			</ul>
+			<br>
+			<ul>
+				<li><h2 class="coursePeriod">Previous</h2></li>
+				<li><h3>Auburn University</h3></li>
+				<li><i>Fall 2016</i>
+					<br>
+					<strong>Comp 5320/6320/6326</strong>
+					- Design and Analysis of Computer Networks
+				</li>
+				<li><h3>Oakland University</h3></li>
+				<li><i>Winter 2016</i>
+					<br>
+					<strong>CSE/CIT 280</strong>
+					- Sophomore Project
+				</li>
+				<li><i>Winter 2016</i>
+					<br>
+					<strong>CIT 448</strong>
+					- Information Security Practice
+				</li>
+				<li><i>Winter 2015</i>
+					<br>
+					<strong>CIT 448</strong>
+					- Information Security Practice
+				</li>
+				<li><i>Fall 2015</i>
+					<br>
+					<strong>CIT 448</strong>
+					- Information Security Practice
+				</li>
+				<li><i>Fall 2015</i>
+					<br>
+					<strong>CSE 548</strong>
+					- Wireless and Industrial Networks
+				</li>
+				<li><i>Winter 2014</i>
+					<br>
+					<strong>CSE/CIT 280</strong>
+					- Sophomore Project
+				</li>
+				<li><i>Winter 2014</i>
+					<br>
+					<strong>CSE/CIT 480</strong>
+					- Senior Capstone Project
+				</li>
+				<li><i>Fall 2014</i>
+					<br>
+					<strong>CSE/CIT 280</strong>
+					- Sophomore Project
+				</li>
+				<li><i>Fall 2014</i>
+					<br>
+					<strong>CSE 548</strong>
+					- Wireless and Industrial Networks
+				</li>
+				<li><i>Winter 2013</i>
+					<br>
+					<strong>CSE/CIT 247</strong>
+					- Introduction to Computer Networks
+				</li>
+				<li><i>Fall 2013</i>
+					<br>
+					<strong>CSE/CIT 280</strong>
+					- Sophomore Project
+				</li>
+				<li><i>Fall 2013</i>
+					<br>
+					<strong>CSE 548</strong>
+					- Wireless and Industrial Networks
+				</li>
+				<li><i>Summer 2013</i>
+					<br>
+					<strong>CSE 142</strong>
+					- Introduction to C Programming
+				</li>
+				<li><i>Summer 2013</i>
+					<br>
+					<strong>CSE 232</strong>
+					- C++ for Programmers
+				</li>
+				<li><i>Winter 2012</i>
+					<br>
+					<strong>CSE/CIT 247</strong>
+					- Introduction to Computer Networks
+				</li>
+				<li><i>Fall 2012</i>
+					<br>
+					<strong>CSE 142</strong>
+					- Introduction to C Programming
+				</li>
+				<li><i>Fall 2012</i>
+					<br>
+					<strong>CSE/CIT 280</strong>
+					- Sophomore Project
+				</li>
+				<li><i>Fall 2011</i>
+					<br>
+					<strong>CSE 142</strong>
+					- Introduction to C Programming
+				</li>
+				<li><i>Fall 2011</i>
+					<br>
+					<strong>CSE 232</strong>
+					- C++ for Programmers
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="Publications" class="tabcontent">
+		<div class="left_container">
+			<h2 class="centerTitle">Selected Publications</h2>
+			<h3>Technical Report</h3>
+			<ol>
+				<li>Tao Shu, Yingying Chen, Jie Yang, and Albert Williams, ``Multi-lateral privacy-preserving localization in pervasive environments,’’ Technical Report of Oakland University, Department of Computer Science and Engineering, July 2013.</li>
+				<li>Dong Han, Ye Yan, Tao Shu, Liuqing Yang, and Shuguang Cui, ``Cognitive context-aware distributed storage optimization in mobile cloud computing: a stable matching based approach,’’ Technical Report of Auburn University, Department of Computer Science and Software Engineering, Mar. 2017.</li>
+			</ol>
+			<h3>Refereed Journal Papers</h3>
+			<h4>(underlined authors are/were my students during the development of the work)</h4>
+			<ol>
+				<li><u>Rui Zhu</u>, Tao Shu, and Huirong Fu, “Statistical inference attack against PHY-layer key extraction and countermeasures,” accepted by Springer Wireless Networks (WINE), to appear, Aug. 2021.</li>
+
+				<li><u>Jian Chen</u>, <u>Tian Liu</u>, and Tao Shu, “A survey on visible light communication standards,” ACM GetMobile: Mobile Computing and Communications (formerly ACM Mobile Computing and Communications Review (MC2R)), Vol. 25, No. 1, pp. 9 – 15, March 2021 (invited).</li>
+
+				<li><u>Jing Hou</u>, <u>Li Sun</u>, Tao Shu, and Husheng Li, “The value of traded target information in security games,” accepted by IEEE/ACM Transactions on Networking (ToN), to appear, Apr. 2021.</li>
+
+				<li><u>Tian Liu</u> and Tao Shu, “On the security of ANN-based AC state estimation in smart grid,” accepted by Computers & Security (Elsevier), to appear, Mar. 2021.</li>
+
+				<li><u>Xueyang Hu</u>, <u>Tian Liu</u>, and Tao Shu, “Fast and high-resolution NLOS beam switching over commercial off-the-shelf mmWave devices,” accepted by IEEE Transactions on Mobile Computing (TMC), to appear, Mar. 2021.</li>
+
+				<li><u>Jing Hou</u>, <u>Li Sun</u>, Tao Shu, Yong Xiao, and Marwan Krunz, “Economics of strategic network infrastructure sharing: A backup reservation approach,” accepted by IEEE/ACM Transactions on Networking (ToN), to appear, Dec. 2020.</li>
+
+				<li><u>Li Sun</u>, <u>Jing Hou</u>, and Tao Shu, ``Spatial and temporal contextual multi-armed bandit handover in ultra-dense mmWave cellular networks,’’ accepted by IEEE Transactions on Mobile Computing (TMC), to appear, June 2020.</li>
+
+				<li><u>Jian Chen</u> and Tao Shu, ``Statistical modeling and analysis on the confidentiality of indoor VLC systems,’’ accepted by IEEE Transactions on Wireless Communications, to appear, Apr. 2020.</li>
+
+				<li>Yong Xiao, Marwan Krunz, and Tao Shu, ``Multi-operator network sharing for massive IoT,’’ IEEE Communications Magazine, vol. 57, no. 4, pp. 96-101, Apr. 2019.</li>
+
+				<li>Tao Shu, Yingying Chen, and Jie Yang, ``Protecting multi-lateral localization privacy in pervasive environments,’’ IEEE/ACM Transactions on Networking (ToN), vol. 23, no. 5, pp. 1688-1701, Oct. 2015.</li>
+
+				<li>Tao Shu and Marwan Krunz, ``Privacy-preserving and truthful detection of packet dropping attacks in wireless ad hoc networks,’’ IEEE Transactions on Mobile Computing (TMC), vol. 14, no. 4, pp. 813-828, Apr. 2015.</li>
+
+				<li>Tao Shu and Husheng Li, ``QoS-compliant sequential channel sensing for cognitive radios,’’ IEEE Journal on Selected Areas in Communications (JSAC), vol. 32, no. 11, pp. 2013-2025, Nov. 2014.</li>
+
+				<li>Tao Shu and Marwan Krunz, ``Sequential opportunistic spectrum access with imperfect channel sensing,’’ Ad Hoc Networks Journal, vol. 11, no. 3, pp. 778-797, 2013.</li>
+
+				<li>Tao Shu and Marwan Krunz, ``Finding the cheapest route in profit-driven opportunistic spectrum access networks: a truthful mechanism design approach,'' IEEE/ACM Transactions on Networking (ToN), vol. 20, no. 2, pp. 530-543, Apr. 2012.</li>
+
+				<li>Tao Shu and Marwan Krunz, ``Exploiting microscopic spectrum opportunities in cognitive radio networks via coordinated channel access, '' IEEE Transactions on Mobile Computing (TMC), vol. 9, no. 11, pp. 1522-1534, Nov. 2010.</li>
+
+				<li>Tao Shu, Marwan Krunz, and Sisi Liu, ``Secure data collection in wireless sensor networks using randomized dispersive routes,'' IEEE Transactions on Mobile Computing (TMC), vol. 9, no. 7, pp. 941-954, July 2010.</li>
+
+				<li>Tao Shu and Marwan Krunz, ``Coverage-time optimization for clustered wireless sensor networks: A power-balancing approach,'' IEEE/ACM Transactions on Networking (ToN), vol. 18, no. 1, pp. 202-215, Jan. 2010.</li>
+
+				<li>Tao Shu and Marwan Krunz, ``Energy-efficient power/rate control and scheduling in hybrid TDMA/CDMA wireless sensor networks,'' Computer Networks Journal (Elsevier), vol. 53, no. 9, pp. 1395-1408, Jun. 2009.</li>
+
+				<li>Haythem Bany Salameh, Tao Shu, and Marwan Krunz, ``Adaptive cross-layer MAC design for improved energy-efficiency in multi-channel wireless sensor networks,'' Ad Hoc Networks Journal, vol. 5, no. 6, pp. 844-854, Aug. 2007.</li>
+
+				<li>Tao Shu, Marwan Krunz, and Sarma Vrudhula, ``Joint optimization of transmit power-time and bit energy efficiency in CDMA wireless sensor networks,'' IEEE Transactions on Wireless Communications, vol. 5, no. 11, pp. 3109-3118, Nov. 2006.</li>
+
+				<li>Alaa Muqattash, Marwan Krunz, and Tao Shu, ``Performance enhancement of adaptive orthogonal modulation in wireless CDMA systems,'' IEEE Journal on Selected Areas in Communications, vol. 24, no. 3, pp. 565-578, Mar. 2006.</li>
+
+				<li>Tao Shu and Zhisheng Niu, ``Uplink capacity optimization by power allocation for multimedia CDMA networks with imperfect power control,'' IEEE Journal on Selected Areas in Communications, vol. 21, no. 10, pp. 1585-1594, Dec. 2003.</li>
+
+				<li>Tao Shu and Zhisheng Niu, ``A throughput-efficient and channel-adaptive scheduling scheme in voice/data DS-CDMA networks with transmission power constrains,'' Wireless Communications and Mobile Computing Journal (Wiley), vol. 3, no. 7, pp. 879-894, Nov. 2003.</li>
+
+				<li>Zhisheng Niu, Tao Shu, and Yoshitaka Takahashi, ``A vacation queue with setup and close-down times and batch markovian arrival processes,'' Performance Evaluation (Elsevier), vol. 54, no. 3, pp. 225-248, Nov. 2003.</li>
+
+				<li>Tao Shu and Zhisheng Niu, ``Call admission control using differentiated outage probabilities in multimedia DS-CDMA networks with imperfect power control,'' IEICE Transactions on Communications, vol.E86-B, No.1, pp. 16-24, Jan. 2003.</li>
+
+				<li>Tao Shu and Zhisheng Niu, ``Capacity optimization by using cancellation-error-ascending decoding order in multimedia CDMA networks with imperfect successive interference cancellation,'' IEICE Transactions on Communications, vol.E86-B, No.1, pp. 375-379, Jan. 2003.</li>
+
+				<li>Tao Shu, Wu Ye, and Suili Feng, ``Analysis of ATM VBR video statistical multiplexer based on $D_1^{[X]}/D_2/1$,'' Journal of China Institute of Communications, vol.20, no.7, pp. 76-80, Jul. 1999. (in Chinese)</li>
+
+				<li>Tao Shu and Wu Ye, ``ATM networks's ABR service flow control based on adaptive rate prediction,'' Journal of Circuits and Systems, vol.4, no.3, pp. 18-24, Sep. 1999. (in Chinese)</li>
+
+				<li>Tao Shu and Wu Ye, ``ABR traffic flow control mechanism in ATM networks,'' Journal of South China University of Technology, vol.28, no.10, pp. 37-42, Oct. 2000. (in Chinese)</li>
+
+			</ol>
+			<h3>Refereed Conference Papers</h3>
+			<h4>(underlined authors are/were my students during the development of the work)</h4>
+			<ol>
+				<li><u>Li Sun</u>, <u>Jing Hou</u>, and Tao Shu, “Bandwidth-efficient precoding in cell-free massive MIMO networks with Rician fading channels,” accepted by IEEE SECON 2021, to appear, Apr. 2021. (acceptance rate: 37/140=26.4%)</li>
+
+				<li><u>Jian Chen</u> and Tao Shu, “Spoofing detection for indoor visible light systems with redundant orthogonal encoding,” accepted by IEEE ICC 2021, to appear.</li>
+
+				<li><u>Jian Chen</u> and Tao Shu, “Impact of multiple reflections on secrecy capacity of indoor VLC system,” accepted by 21st International Conference on Information and Communications Security (ICICS’19), to appear, Nov. 2019. (acceptance rate: 24%)</li>
+
+				<li><u>Li Sun</u>, <u>Jing Hou</u>, and Tao Shu, “Optimal handover policy for mmWave cellular networks: A multi-armed bandit approach,” accepted by IEEE Globecom 2019, to appear, Sep. 2019.</li>
+
+				<li><u>Jing Hou</u>, <u>Li Sun</u>, Tao Shu, and Husheng Li, “Target information trading – An economic perspective of security,” Proc. SecureComm 2019, Oct. 2019. (acceptance rate: 25%)</li>
+
+				<li><u>Tian Liu</u> and Tao Shu, “Adversarial false data injection attack against nonlinear AC state estimation with ANN in smart grid,” Proc. SecureComm 2019, 14-page short paper, Oct. 2019. (acceptance rate: 10% beyond long paper, total acceptance rate: 35%)</li>
+
+				<li><u>Jing Hou</u>, <u>Li Sun</u>, Tao Shu, Yong Xiao, and Marwan Krunz, “Strategic network infrastructure sharing through backup reservation in a competitive environment,” Proc. IEEE SECON 2019, June 2019. (acceptance rate: 28.6%)</li>
+
+				<li>Jingchao Bao, Tao Shu, and Husheng Li, “Handover prediction based on geometry method in mmWave Communications – A sensing approach,” Proc. IEEE ICC workshop on Evolutional Technologies and Ecosystems for 5G Phase II (WDN-5G), May 2018.</li>
+
+				<li><u>Rui Zhu</u>, Huirong Fu, and Tao Shu, “Information-theoretic security and energy efficiency for information and power transfer in two-hop wireless relay networks,” Proc. 2018 IEEE International Conference on Electro Information Technology (EIT), May 2018.</li>
+
+				<li><u>Rui Zhu</u>, Tao Shu, and Huirong Fu, “Empirical statistical inference attack against PHY-layer key extraction in real environments,” Proc. IEEE Milcom 2017, Oct. 2017.</li>
+
+				<li><u>Dong Han</u>, <u>Ye Yan</u>, Tao Shu, Liuqing Yang, and Shuguang Cui, “Cognitive context-aware distributed storage optimization in mobile cloud computing: A stable matching based approach,” Proc.  IEEE ICDCS 2017, June 2017. (acceptance rate: 16.8%)</li>
+
+				<li><u>Ye Yan</u>, <u>Dong Han</u>, and Tao Shu, “Privacy preserving optimization of participatory sensing in mobile cloud computing,” Proc. IEEE ICDCS 2017, June 2017. (acceptance rate: 28%)</li>
+
+				<li>Tao Shu and Shuguang Cui, “Renovating location-based routing for integrated communication privacy and efficiency in IoT,” Proc. IEEE ICC 2017, May 2017.</li>
+
+				<li><u>Dong Han</u>, <u>Ye Yan</u>, and Tao Shu, ``Context-aware distributed storage in mobile cloud computing,’’ Proc. IEEE Globecom 2015 workshop (6-page full paper, contains a thorough analysis, formulation, and solution of the problem, plus more complete and rigid evaluation results for the proposed mechanisms), Dec. 2015.</li>
+
+				<li><u>Dong Han</u>, <u>Ye Yan</u>, and Tao Shu, ``Context-aware distributed storage in mobile cloud computing (2-page abstract),’’ Proc. IEEE MASS 2015 poster, Oct. 2015.</li>
+
+				<li><u>Dong Han</u> and Tao Shu, ``Thermal-aware energy-efficient task scheduling for DVFS-enabled data centers,’’ Proc. IEEE ICNC 2015, Feb. 2015.</li>
+
+				<li><u>Ye Yan</u> and Tao Shu, ``Energy-efficient in-network encryption/decryption for wireless body area sensor networks,’’ Proc. IEEE Globecom 2014, Dec. 2014.</li>
+
+				<li>G. Corser, H. Fu, T. Shu, P. D’Errico, W. Ma, S. Leng, and Y. Zhu, ``Privacy-by-decoy: protecting location privacy against collusion and deanonymization in vehicular location based services,’’ 2014 IEEE Intelligent Vehicles Symposium, June 2014.</li>
+
+				<li>Tao Shu, Yingying Chen, Jie Yang, and Albert Williams, ``Multi-lateral privacy-preserving localization in pervasive environments,’’ Proc. IEEE INFOCOM 2014, May 2014. (acceptance rate: 19.3%)</li>
+
+				<li>G. Corser, H. Fu, T. Shu, P. D’Errico, and W. Ma, ``Endpoint protection zone (EPZ): Protecting LBS user location privacy against deanonymization and collusion in vehicular networks,’’ Proc. 2013 IEEE International Conference on Connected Vehicles & Expo (ICCVE), Dec. 2013.</li>
+
+				<li>Tao Shu and Husheng Li, ``Rate-percentile-optimal sequential channel sensing and probing in cognitive radio networks under spectrum uncertainty,’’ Proc. IEEE SECON 2013, June, 2013. (acceptance rate: 18.2%)</li>
+
+				<li>Husheng Li, Tao Shu, Feng He, and Ju Bin Song, ``Futures market for spectrum trade in wireless communications: modeling, pricing and hedging,’’ Proc. IEEE Globecom 2013, Dec. 2013.</li>
+
+				<li>Tao Shu and Marwan Krunz, ``Detection of malicious packet dropping in wireless ad hoc networks based on privacy-preserving public auditing,'' Proc. ACM WiSec 2012, Feb. 2012. (acceptance rate: 26.9%)</li>
+
+				<li>Tao Shu and Marwan Krunz, ``Exploiting microscopic spectrum opportunities in cognitive radio networks,'' Proc. IEEE SECON 2010, Boston, MA, Jun. 2010 (acceptance rate: 21.4%).</li>
+
+				<li>Tao Shu and Marwan Krunz, ``Truthful least-priced-path routing in opportunistic spectrum access networks,'' Proc. IEEE INFOCOM 2010, San Diego, CA, USA, Mar. 2010 (acceptance rate: 17.5%).</li>
+
+				<li>Tao Shu and Marwan Krunz, ``Throughput-efficient sequential channel sensing and probing in cognitive radio networks under sensing errors, '' Proc. of the ACM MobiCom 2009 Conference, Beijing, China, Sep. 2009 (acceptance rate: 10.6%).</li>
+
+				<li>Tao Shu and Marwan Krunz, ``Coordinated channel access in cognitive radio networks: A multi-level spectrum opportunity perspective,'' Proc. of the IEEE INFOCOM 2009 (Mini-conference), Rio de Janeiro, Brazil, Apr. 2009 (acceptance rate: 6.9% for mini-conference, 26.7% overall for both main and mini conferences).</li>
+
+				<li>Tao Shu, Sisi Liu, and Marwan Krunz, ``Secure data collection in wireless sensor networks using randomized dispersive routes, '' Proc. of the IEEE INFOCOM 2009 (Mini-conference), Rio de Janeiro, Brazil, Apr. 2009 (acceptance rate: 6.9% for mini-conference, 26.7% overall for both main and mini conferences).</li>
+
+				<li>Alaa Muqattash, Tao Shu, and Marwan Krunz, ``On the performance of joint rate/power control with adaptive modulation in wireless CDMA networks,'' Proc. of the IEEE INFOCOM 2006 Conference, Barcelona, April, 2006 (acceptance rate: 18%).</li>
+
+				<li>Tao Shu, Marwan Krunz, and Sarma Vrudhula, ``Power balanced coverage-time optimization for clustered wireless sensor networks,'' Proc. of the ACM MobiHoc 2005 Conference, Urbana-Champaign, IL, May, 2005 (acceptance rate: 14.2%).</li>
+
+				<li>Tao Shu, Shuguang Cui, and Marwan Krunz, ``Medium access control for multi-channel parallel transmission in cognitive radio networks, '' Proc. of the IEEE GLOBECOM 2006 Conference, Nov. 2006.</li>
+
+				<li>Tao Shu, Haythem Bany Salameh, and Marwan Krunz, ``Cross-layer optimization of a CSMA protocol with adaptive modulation for improved energy efficiency in wireless sensor networks,'' Proc. of the IEEE GLOBECOM 2006 Conference, Nov. 2006.</li>
+
+				<li>Tao Shu and Marwan Krunz, ``A study of tradeoff between energy efficiency and control complexity for CDMA wireless sensor networks,'' Proc. of the IEEE GLOBECOM 2006 Conference, Nov. 2006.</li>
+
+				<li>Tao Shu and Marwan Krunz, ``Joint power/rate optimization for CDMA-based wireless sensor networks,'' Proceedings of SenMetrics 2005 - Third International Workshop on Measurement, Modelling, and Performance Analysis of Wireless Sensor Networks, San Diego, July 2005.</li>
+
+				<li>Xiaoli Wang, Daqing Gu, and Tao Shu, ``Adaptive application-specific cooperative relay for wireless video sensor networks,'' Proc. Future Generation Communication and Networking (FGCN 2007), Dec. 2007.</li>
+
+				<li>Tao Shu and Zhisheng Niu, ``A Channel-adaptive and throughput-efficient scheduling scheme in voice/data DS-CDMA networks with constrained transmission power,'' Proc. of the IEEE ICC 2003 Conference, Alaska, pp.2229-2233, May 2003.</li>
+
+				<li>Tao Shu and Zhisheng Niu, ``Capacity optimization by using cancellation-error-ascending decoding order in multimedia CDMA networks with imperfect successive interference cancellation,'' Proc. of the IEEE ICC 2003 Conference, Alaska, pp.2170-2174, May 2003.</li>
+
+				<li>Tao Shu and Zhisheng Niu, ``Call admission control for imperfectly-power-controlled multimedia CDMA networks based on differentiated outage probabilities,'' Proc. of the IEEE ICC 2003 Conference, Alaska, pp.2241-2245, May 2003.</li>
+
+				<li>Tao Shu and Zhisheng Niu, ``A novel call admission control scheme for multimedia CDMA networks with power multiplexing and imperfect power control,'' Proc. of the IEEE VTC 2003 Spring Conference, vol. 2 Jeju, Korea, pp. 1208-1212, April 2003.</li>
+
+				<li>Tao Shu and Zhisheng Niu, ``A channel-adaptive and throughput-efficient scheduling scheme in power-constrained voice/data CDMA networks based on ranking of received power capabilities,'' Proc. of the IEEE VTC 2003 Spring Conference, vol. 1, Jeju, Korea, pp. 476-480, April 2003.</li>
+
+				<li>Tao Shu and Zhisheng Niu, ``Optimal decoding order and power allocation in multimedia CDMA networks with imperfect successive interference cancellation,'' Proc. of the IEEE VTC 2003 Spring Conference, vol. 1, Jeju, Korea, pp. 358-362, April 2003.</li>
+
+				<li>Tao Shu and Zhisheng Niu, ``A near-optimal antenna selection in MIMO system by using maximum total eigenmode gains,'' Proc. of the IEEE Globecom 2003 Conference, San Francisco, CA, USA, vol. 1, pp. 297-301, Dec. 2003.</li>
+
+				<li>Tao Shu and Zhisheng Niu, ``Maximum-total-eigenmode-gain-based transmit antenna selection in cellular MIMO downlink,'' Proc. of the IEEE PIMRC 2003 Conference, Beijing, China, pp. 1395-1399, 2003.</li>
+
+				<li>Yi Wu, Tao Shu, Zhisheng Niu, and Junli Zheng, ``A vacation model with setup and close-down times for transmitter buffer of ARQ-schemes,'' Proc. of the IEEE PIMRC 2003 Conference, Beijing, China, pp. 2054-2058, 2003.</li>
+
+				<li>Tao Shu and Zhisheng Niu, ``A capacity-optimal QoS provisioning scheme for multimedia traffic in CDMA networks,'' Proc. of the IEEE ICC 2002 Conference, New York, vol.5, pp.3086-3090, May 2002.</li>
+
+				<li>Tao Shu and Zhisheng Niu, ``A dynamic rate assignment scheme for data traffic in cellular multi-code CDMA networks,'' Proc. of the IEEE VTC 2002 Spring Conference, Alabama, vol.2, pp.811-815, May 2002.</li>
+
+				<li>Tao Shu and Zhisheng Niu, ``Capacity optimized power allocation for multimedia CDMA networks under imperfect power control,'' Proc. of the IEEE Globecom 2002 Conference, Taipei, pp.783-787, Nov. 2002.</li>
+
+				<li>Tao Shu and Zhisheng Niu, ``Call admission control using differentiated outage probabilities in multimedia DS-CDMA networks with imperfect power control,'' Proc. of the IEEE 11th International Conference on Computer Communications and Networks (ICCCN 2002), Miami, pp.336-341, Oct. 2002.</li>
+
+				<li>Tao Shu and Zhisheng Niu, ``Power multiplexing based call admission control scheme for bursty multimedia traffic in imperfect-power-controlled cellular CDMA networks,'' Proc. of the Asia-Pacific Conference on Communications 2002 (APCC2002), Sep. 2002.</li>
+
+				<li>Zhisheng Niu, Xiang Duan, Tao Shu, and Junli Zheng, ``A hierarchical power control scheme in CDMA systems ,'' in Proc. of the 2001 IEEE International Conference on Info-tech and Info-net, Vol.2, pp.578-582, 2001.</li>
+			</ol>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="footpart">
+			<ul>
+				<li><h3>Site</h3></li>
+				<li><button class="pageLink footButton" onclick="openContent(event, 'Home')" id="defaultOpen">Home</button></li>
+				<li><button class="pageLink footButton" onclick="openContent(event, 'Research')">Research / Grants</button></li>
+				<li><button class="pageLink footButton" onclick="openContent(event, 'Teaching')">Teaching</button></li>
+				<li><button class="pageLink footButton" onclick="openContent(event, 'Publications')">Publications</button></li>
+			</ul>
+		</div>
+		<div class="footpart">
+			<ul>
+				<li>
+					<h3>Contact</h3>
+				<li>
+					<strong>Office</strong>
+					<br>3101K Shelby Center
+					<br>Auburn University
+					<br>Auburn, AL 36849
+				</li>
+				<li>
+					<strong>Phone</strong>
+					<br>(334) 844-5170
+				</li>
+				<li>
+					<strong>Email</strong>
+					<br>tshu@auburn.edu
+				</li>
+			</ul>
+		</div>
+	<script src="script.js"></script>
+</body>
+</html>
